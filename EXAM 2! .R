@@ -148,6 +148,6 @@ var_label(data_no_NAS) <- list(`country` = "country",
 
 # save the data frame as stata
 library(rio)
-export(data_no_NAS, "clean_dataset.dta")
+export(data_no_NAS, "final_data.dta")
 
 
